@@ -1,0 +1,20 @@
+.side-container {
+    display: flex;
+    justify-content: space-between; /* Space between the children */
+    gap: 20px; /* Gap between the child elements */
+}
+
+.side-container > div {
+    flex: 1; /* Distribute the available space equally */
+}
+
+/* Optional: Style adjustments for better alignment */
+.side-container > div:first-child {
+    /* Example: If you want the first div to be slightly wider */
+    flex: 2;
+}
+
+.side-container > div:last-child {
+    /* Example: If you want the second div to be slightly narrower */
+    flex: 1;
+}

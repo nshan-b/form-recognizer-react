@@ -36,7 +36,7 @@ export default function CircleLoader({msg}) {
                 transition={spinTransition}
             />
         </div>
-        <p>{msg}</p>
+        <p className="mt-2">{msg}</p>
         </>
     )
 }

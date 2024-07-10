@@ -1,6 +1,7 @@
 import React from 'react';
 
 const DocumentViewer = ({ documentData }) => {
+  console.log('documentData', documentData)
   return (
     <div className='bg-blue-100 p-10 flex flex-col'>
         <h2 className='text-center font-bold text-xl mb-4'>Results</h2>
